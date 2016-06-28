@@ -2,8 +2,20 @@
 <html>
     <head>
     </head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+	<script type="text/javascript">
+		$(function() {
+			$.getJSON("https://api.github.com/users/jetstream5500", function( json ) {
+				console.log( "JSON Data: " + json["avatar_url"]);
+				document.getElementById("hello").setAttribute("src",json["avatar_url"]);
+ 			});
+		});
+	</script>
     <body>
-		<p>This is my webpage</p>
-		<p>This is cool</p>
+		<img width=200px id="hello" src="">
+		<ul>
+			<li><a href="https://www.google.com">go to google</a></li>
+			<li><a href="https://www.github.com">go to github</a></li>
+		</ul>
     </body>
 </html>
