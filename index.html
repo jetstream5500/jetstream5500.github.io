@@ -1,21 +1,17 @@
 <!DOCTYPE html>
 <html>
     <head>
+		<link rel="stylesheet" type="text/css" href="style.css"/></link>
     </head>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
-	<script type="text/javascript">
-		$(function() {
-			$.getJSON("https://api.github.com/users/jetstream5500", function( json ) {
-				console.log( "JSON Data: " + json["avatar_url"]);
-				document.getElementById("hello").setAttribute("src",json["avatar_url"]);
- 			});
-		});
-	</script>
+	<script  type="text/javascript" src="script.js"></script>
     <body>
-		<img width=200px id="hello" src="">
-		<ul>
-			<li><a href="https://www.google.com">go to google</a></li>
-			<li><a href="https://www.github.com">go to github</a></li>
-		</ul>
+		<!--<canvas id="canvas" width="250" height="250"></canvas>-->
+		<img style="width:250px;height:250px" id="profilePic" src="">
+		<br>
+		<div class="social-media"><a href="https://github.com/jetstream5500">Github</a></div>
+		<div class="social-media"><a href="https://www.instagram.com/mcokzoo/">Instagram</a></div>
+		<div class="social-media"><a href="https://www.facebook.com/Jetstream5500">Facebook</a></div>
+		<div class="social-media"><a href="https://twitter.com/mcokzoo">Twitter</a></div>
     </body>
 </html>

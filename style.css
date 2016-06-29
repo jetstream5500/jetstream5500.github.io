@@ -1,0 +1,26 @@
+body {
+	margin:0;
+	padding:0;
+}
+a {
+	text-decoration: none;
+}
+
+.social-media {
+	text-align:center;
+	width: 100px;
+	margin:10px;
+}
+.social-media a {
+	display:inline-block;
+	width:100%;
+	height:100%;
+	line-height: 2em;
+	color: #CCDDFF;
+	background-color: #555599;
+}
+
+.social-media a:hover {
+	color: #EEFFFF;
+	background-color: #7777BB;
+}
