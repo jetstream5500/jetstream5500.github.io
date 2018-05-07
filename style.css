@@ -1,34 +1,107 @@
 body {
-	font-family:sans-serif;
-	font-weight: 300;
-	margin:0;
-	padding:0;
+	margin: 0;
+	font-family: avenir;
+	background-color: #EEEEEE;
 }
-a {
-	text-decoration: none;
+.topcover {
+	//background: url(IMG_4998.JPG);
+	//background: url(Obi-Wan-and-Qui-Gon-Jinn-lightsaber.gif);
+	background-image: url(Trefoil_knot_conways_game_of_life.gif);
+	//background-attachment: fixed;
+    //background-position: 0px -100px;
+    background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height:500px;
+	text-align: center;
 }
 
-.social-media {
-	display:inline-block;
-	text-align:center;
-	margin:10px;
-}
-.social-media a {
-	display:inline-block;
-	width:100%;
+.colorlayer {
+	background-color: rgba(100,100,255,0.8);
 	height:100%;
-	line-height: 50px;
-	width:100px;
-	color: #FFFFFF;
-	background-color: #555599;
 }
 
-.social-media a:hover {
-	color: #FFFFFF;
-	background-color: #7777BB;
+.centereddiv {
+	//max-width: 700px;
+	width: 92%;
+	margin: 0 4%;
+
+
+	position: relative;
+	top: 30%;
+	transform: translate(0, -30%);
 }
 
-#profilePic {
-	display: block;
+.big {
+	color: #FFFFFF;
+	//text-shadow: -1px 2px 80px #000000;
+	text-shadow: -1px 2px 80px rgba(50,50,175,1);
+}
+
+.name {
+	font-size: 6rem;
+	letter-spacing: 0.5rem;
+}
+.description {
+	font-size: 1.2rem;
+	letter-spacing: 0.1rem;
+}
+
+.block {
+	box-sizing: border-box;
+	float:left;
+	min-width:300px;
+	margin-left: 8px;
+	margin-top: 8px;
+	height:200px;
+
+	background-color: #FFFFFF;
+	border: solid 1px #BBBBBB;
+	box-shadow: -1px 1px 2px #999999;
+}
+
+.block:hover {
+	box-shadow: -3px 3px 10px #999999;
+}
+
+.instagram {
+	background: url(glyph-logo_May2016.png);
+}
+
+.facebook {
+	background: url(flogo-HexRBG-Wht-144.png);
+}
+
+.github {
+	background: url(GitHub-Mark-Light-64px.png);
+}
+
+.iconholder {
+	width:174px;
+	height:100%;
 	margin:0 auto;
+	overflow: hidden;
+	text-align: center;
+}
+
+.icon {
+	float: left;
+	display: inline;
+	margin:0px 4px;
+
+	background-size: 36px;
+	background-repeat: no-repeat;
+	background-position: 6px 6px;
+
+	box-sizing: border-box;
+	width:50px;
+	height: 50px;
+
+	background-color: rgba(80,80,215,1);
+	border: 1px solid rgba(50,50,175,1);
+}
+
+.icon:hover {
+	background-color: rgba(70,70,205,1);
 }
