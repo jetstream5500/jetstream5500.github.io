@@ -3,6 +3,8 @@ body {
 	font-family: avenir;
 	background-color: #EEEEEE;
 }
+
+/* top section */
 .topcover {
 	//background: url(IMG_4998.JPG);
 	//background: url(Obi-Wan-and-Qui-Gon-Jinn-lightsaber.gif);
@@ -48,23 +50,6 @@ body {
 	letter-spacing: 0.1rem;
 }
 
-.block {
-	box-sizing: border-box;
-	float:left;
-	min-width:300px;
-	margin-left: 8px;
-	margin-top: 8px;
-	height:200px;
-
-	background-color: #FFFFFF;
-	border: solid 1px #BBBBBB;
-	box-shadow: -1px 1px 2px #999999;
-}
-
-.block:hover {
-	box-shadow: -3px 3px 10px #999999;
-}
-
 .instagram {
 	background: url(glyph-logo_May2016.png);
 }
@@ -77,6 +62,7 @@ body {
 	background: url(GitHub-Mark-Light-64px.png);
 }
 
+/* icons */
 .iconholder {
 	width:174px;
 	height:100%;
@@ -105,3 +91,25 @@ body {
 .icon:hover {
 	background-color: rgba(70,70,205,1);
 }
+
+/* blocks */
+
+.block {
+	box-sizing: border-box;
+	float:left;
+	max-width:400px;
+	width:350px;
+	margin-left: 8px;
+	margin-top: 8px;
+	height:200px;
+
+	background-color: #FFFFFF;
+	border: solid 1px #BBBBBB;
+	box-shadow: -1px 1px 2px #999999;
+}
+
+.block:hover {
+	box-shadow: -3px 3px 10px #999999;
+}
+
+@media only screen and (min-width: 600px) {
